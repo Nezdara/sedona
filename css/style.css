@@ -45,10 +45,6 @@ header .logo {
   list-style: none;
 }
 
-.main-navigation ul li {
-
-}
-
 .main-navigation-left {
   margin-right: 145px;
   float: left;
@@ -292,4 +288,48 @@ img.center {
   line-height: 26px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.main-footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.footer-tagname {
+  float: left;
+  padding-left: 130px;
+  margin-right: 250px;
+}
+
+.footer-tagname h2 {
+  padding: 0;
+  margin: 0;
+  padding-top: 12px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-social {
+  float: left;
+  width: 160px;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin: 0 3px;
+
+  font-size: 0;
+  vertical-align: top;
+  text-decoration: none;
+  background: #81b3d2;
+}
+
+.social-btn:last-child {
+  margin-right: 0;
 }
