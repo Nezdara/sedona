@@ -1,0 +1,295 @@
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  min-width: 1250px;
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+header {
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  top: 0;
+  left: 531px;
+  right: 531px;
+}
+
+.main-navigation {
+  margin-left: 70px;
+}
+
+.main-navigation ul {
+  display: inline-block;
+  width: 1056px;
+  padding: 15px 0;
+  margin: 0;
+  vertical-align: top;
+  list-style: none;
+}
+
+.main-navigation ul li {
+
+}
+
+.main-navigation-left {
+  margin-right: 145px;
+  float: left;
+}
+
+.main-navigation-right {
+  float: right;
+  margin-left: 145px;
+}
+
+.main-navigation a {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-navigation a:hover {
+  color: #81b3d2;
+}
+
+.main-navigation a:active {
+  color: rgba(0, 0, 0, 0.4);;
+}
+
+header img {
+  margin-bottom: 50px;
+}
+
+.about {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 500px;
+}
+
+.about h1 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.index-content-left {
+  float: left;
+  width: 400px;
+  min-height: 256px;
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.index-content-left h2, .index-content-right h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 55px;
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.index-content-left span, .index-content-right span {
+  display: block;
+  padding: 25px 0;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.index-content-left p, .index-content-right p {
+  margin: 0;
+  padding: 0 55px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.index-content-right img {
+  float: left;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.promo {
+  width: 1200px;
+  min-height: 330px;
+}
+
+.promo-left, .promo-center, .promo-right {
+  padding-top: 50px;
+  width: 400px;
+  min-height: 270px;
+  float: left;
+}
+
+.promo h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.promo-left p {
+  padding: 0 40px;
+}
+
+.promo-center p {
+  padding: 0 50px;
+}
+
+.promo-right p {
+  padding: 0 70px;
+}
+
+.promo p {
+  margin: 0;
+  padding-top: 30px;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.index-content-reason {
+  float: left;
+  width: 400px;
+  min-height: 265px;
+  background-color: #eeeeee;
+}
+
+.index-content-reason h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 45px;
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.index-content-reason span {
+  display: block;
+  padding: 25px 0;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.index-content-reason p {
+  margin: 0;
+  padding: 0 65px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.search-form-title {
+  float: left;
+  width: 1200px;
+  min-height: 260px;
+  padding-top: 55px;
+}
+
+.search-form-title h2 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search-form-title  p {
+  margin: 0;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.search-form {
+  position: relative;
+  width: 570px;
+  height: 480px;
+  margin: 0 auto;
+  top: 205px;
+  background-color: #ffffff;
+  box-shadow: 0px 7px 15px 0px rgba(0, 1, 1, 0.15);
+}
+
+.search-form form {
+  position: absolute;
+}
+
+.search-form h2 {
+  margin: 0;
+  margin-bottom: 55px;
+  padding: 33px 0;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #766357;
+  color: #ffffff;
+}
+
+.search-form input[type=date] {
+	background: #f2f2f2;
+  border: none;
+	color: #000000;
+	font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+	line-height: 26px;
+	outline: 0;
+	width: 330px;
+  height: 38px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.search-form .search-form-label {
+  display: inline-block;
+  width: 110px;
+  margin-left: 40px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
