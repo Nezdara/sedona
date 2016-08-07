@@ -19,14 +19,14 @@ body {
   margin: 0 auto;
   padding: 0;
   background-color: #ffffff;
-  box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
+  box-shadow: 0px -25px 15px 0px rgba(0, 1, 1, 0.2);
 }
 
-header {
+.main-header {
   position: relative;
 }
 
-header .logo {
+.main-header .logo {
   position: absolute;
   top: 0;
   left: 531px;
@@ -47,13 +47,13 @@ header .logo {
 }
 
 .main-navigation-left {
-  margin-right: 145px;
+  margin-right: 148px;
   float: left;
 }
 
 .main-navigation-right {
   float: right;
-  margin-left: 145px;
+  margin-left: 163px;
 }
 
 .main-navigation a {
@@ -73,7 +73,7 @@ header .logo {
   color: rgba(0, 0, 0, 0.4);;
 }
 
-header img {
+.main-header img {
   margin-bottom: 50px;
 }
 
@@ -85,6 +85,7 @@ header img {
 
 .about h1 {
   margin: 0;
+  margin-bottom: 30px;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
@@ -92,6 +93,8 @@ header img {
 }
 
 .about p {
+  margin: 0;
+  padding: 0;
   text-align: center;
   text-transform: uppercase;
   color: #333333;
@@ -216,6 +219,7 @@ img.center {
 }
 
 .search-form-title {
+  position: relative;
   float: left;
   width: 1200px;
   min-height: 260px;
@@ -234,6 +238,7 @@ img.center {
 
 .search-form-title  p {
   margin: 0;
+  margin-bottom: 135px;
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
@@ -241,17 +246,14 @@ img.center {
 }
 
 .search-form {
-  position: relative;
+  position: absolute;;
   width: 570px;
   height: 480px;
-  margin: 0 auto;
-  top: 205px;
+  top: 200px;
+  left: 315px;
+  right: -315px;
   background-color: #ffffff;
   box-shadow: 0px 7px 15px 0px rgba(0, 1, 1, 0.15);
-}
-
-.search-form form {
-  position: absolute;
 }
 
 .search-form h2 {
