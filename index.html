@@ -24,7 +24,7 @@
     </nav>
     <img src="img/sedona-header.jpg" alt="sedona" width="1200" height="509">
   </header>
-  <main class="container clearfix">
+  <main class="container">
     <div class="about">
       <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
@@ -91,41 +91,75 @@
           <br> толпится там</p>
       </div>
     </div>
-    <div class="search-form-title">
-      <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки,
-        <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <img src="img/sedona-map.jpg" alt="sedona map" width="1200" height="593">
-      <div class="search-form">
-        <h2>Поиск гостиницы в Седоне</h2>
-        <form method="post" action="#">
-          <label for="calendar-in" class="search-form-label">Дата заезда:</label>
-          <input type="date" id="calendar-in" name="calendar-in" value="2016-08-24" max="2016-12-31" min="2016-08-24">
-          <label for="calendar-out" class="search-form-label">Дата выезда:</label>
-          <input type="date" id="calendar-out" name="calendar-out" value="2016-08-30" max="2016-12-31" min="2016-08-24">
-          <label for="adults" class="search-form-label">Взрослые:</labe>
-            <input class="count-btn" type="button" value="-">
-            <input id="adults" type="text" placeholder="2">
-            <input class="count-btn" type="button" value="+">
-            <label for="children" class="search-form-label">Дети:</labe>
-              <input class="count-btn" type="button" value="-">
-              <input id="children" type="text" placeholder="0">
-              <input class="count-btn" type="button" value="+">
-              <input type="submit" value="Найти">
-        </form>
+    <div class="search-promo">
+      <div class="search-promo-title">
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки,
+          <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      </div>
+      <div class="map">
+        <img src="img/sedona-map.jpg" alt="sedona map" width="1200" height="473">
+        <div class="search-form">
+          <div class="search-form-title">
+            <h2>Поиск гостиницы в Седоне</h2>
+          </div>
+          <form method="post" action="#">
+            <div class="search-form-row clearfix">
+              <div class="form-label to-left">
+                <label for="calendar-in">Дата заезда:</label>
+              </div>
+              <div class="to-right">
+                <input type="date" id="calendar-in" name="calendar-in" value="2016-08-24" max="2017-12-31" min="2016-08-24">
+              </div>
+            </div>
+            <div class="search-form-row clearfix">
+              <div class="form-label to-left">
+                <label for="calendar-out">Дата выезда:</label>
+              </div>
+              <div class="to-right">
+                <input type="date" id="calendar-out" name="calendar-out" value="2016-08-30" max="2017-12-31" min="2016-08-24">
+              </div>
+            </div>
+            <div class="search-form-row">
+              <div class="search-form-half clearfix">
+                <div class="form-label to-left">
+                  <label for="adults">Взрослые:</labe>
+                </div>
+                <div class="to-right">
+                  <button class="count-btn" type="button" value="-"><i class="icon-minus"></i></button>
+                  <input id="adults" type="text" placeholder="2">
+                  <button class="count-btn" type="button" value="+"><i class="icon-plus"></i></button>
+                </div>
+              </div>
+              <div class="search-form-half clearfix">
+                <div class="form-label to-left">
+                  <label for="children">Дети:</labe>
+                </div>
+                <div class="search-form-half-right to-right">
+                  <button class="count-btn" type="button" value="-"><i class="icon-minus"></i></button>
+                  <input id="children" type="text" placeholder="0">
+                  <button class="count-btn" type="button" value="+"><i class="icon-plus"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="search-form-row">
+              <button class="blue-btn" type="submit">Найти</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </main>
-  <footer class="container main-footer clearfix">
-    <section class="footer-tagname">
+  <footer class="main-footer container clearfix">
+    <section class="footer-tagname to-left">
       <h2>#visitsedona</h2>
     </section>
-    <section class="footer-social">
-      <a class="social-btn social-btn-tw" href="#">Твиттер</a>
-      <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-      <a class="social-btn social-btn-ytb" href="#">Ютуб</a>
+    <section class="footer-social to-left">
+      <a class="social-btn social-btn-tw" href="#"><i class="icon-twitter"></i>Твиттер</a>
+      <a class="social-btn social-btn-fb" href="#"><i class="icon-facebook"></i>Фейсбук</a>
+      <a class="social-btn social-btn-ytb" href="#"><i class="icon-youtube"></i>Ютуб</a>
     </section>
-    <section class="footer-copyright"></section>
+    <section class="footer-copyright to-right"></section>
   </footer>
 </body>
 </html>
