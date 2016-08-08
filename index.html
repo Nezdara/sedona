@@ -15,25 +15,26 @@
       <img src="img/sedona-logo.png" alt="sedona logo" width="138" height="70">
     </div>
     <nav class="main-navigation">
-      <ul>
-        <li class="main-navigation-left"><a href="#">Информация</a></li>
-        <li class="main-navigation-left"><a href="#">Фото и видео</a></li>
-        <li class="main-navigation-right"><a href="#">Гостиницы</a></li>
-        <li class="main-navigation-right"><a href="#">Карта штата</a></li>
+      <ul class="clearfix">
+        <li class="to-left"><a href="#">Информация</a></li>
+        <li class="to-left"><a href="#">Фото и видео</a></li>
+        <li class="to-right"><a href="#">Гостиницы</a></li>
+        <li class="to-right"><a href="#">Карта штата</a></li>
       </ul>
     </nav>
     <img src="img/sedona-header.jpg" alt="sedona" width="1200" height="509">
   </header>
-  <main class="container">
+  <main class="container clearfix">
     <div class="about">
       <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     </div>
-    <div class="row clearfix">
+    <div class="clearfix">
       <div class="col to-left">
         <h2>Настоящий<br> городок</h2>
         <p>— №1 —</p>
-        <p>Седона не аттракцион для туристов, там течет своя жизнь</p>
+        <p>Седона не аттракцион для туристов,
+          <br> там течет своя жизнь</p>
       </div>
       <div class="to-right">
         <img src="img/sedona-reason01.jpg" alt="sedona" width="800" height="256">
@@ -43,49 +44,57 @@
       <div class="col to-left">
         <img class="center" src="img/icon-house.png" alt="house" width="75" height="72">
         <h2>Жилье</h2>
-        <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        <p>Рекомендуем пожить в настоящем
+          <br> мотеле, все как в кино!</p>
       </div>
       <div class="col to-left">
         <img class="center" src="img/icon-burger.png" alt="house" width="74" height="70">
         <h2>Еда</h2>
-        <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        <p>Всегда заказывайте фирменный бургер,
+          <br> вы не разочаруетесь!</p>
       </div>
       <div class="col to-right">
         <img class="center" src="img/icon-gift.png" alt="house" width="64" height="76">
         <h2>Сувениры</h2>
-        <p>Не только китайского, но и местного производства!lorem</p>
+        <p>Не только китайского,
+          <br> но и местного производства!</p>
       </div>
     </div>
-    <div class="row clearfix">
+    <div class="clearfix">
       <div class="to-left">
         <img src="img/sedona-reason02.jpg" alt="sedona" width="800" height="256">
       </div>
       <div class="col to-right">
         <h2>Там есть<br> мост дьявола</h2>
         <p>— №2 —</p>
-        <p>Да , по нему можно пройти! Если конечно вы осмелитесь</p>
+        <p>Да , по нему можно пройти!
+          <br> Если конечно вы осмелитесь</p>
       </div>
     </div>
     <div class="row-gray clearfix">
       <div class="col to-left">
         <h2>Небольшая<br> площадь</h2>
         <p>— №3 —</p>
-        <p>Все достопримечательности находятся очень близко</p>
+        <p>Все достопримечательности
+          <br> находятся очень близко</p>
       </div>
       <div class="col to-left">
         <h2>Красивая<br> дорога</h2>
         <p>— №4 —</p>
-        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        <p>Ехать в Седону из Лас-Вегаса совсем
+          <br> не скучно!</p>
       </div>
       <div class="col to-right">
         <h2>Мало<br> туристов</h2>
         <p>— №5 —</p>
-        <p>Большинство едет в Гранд Каньон и толпится там</p>
+        <p>Большинство едет в Гранд Каньон и
+          <br> толпится там</p>
       </div>
     </div>
     <div class="search-form-title">
       <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <p>Укажите предполагаемые даты поездки,
+        <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
       <img src="img/sedona-map.jpg" alt="sedona map" width="1200" height="593">
       <div class="search-form">
         <h2>Поиск гостиницы в Седоне</h2>
@@ -95,14 +104,14 @@
           <label for="calendar-out" class="search-form-label">Дата выезда:</label>
           <input type="date" id="calendar-out" name="calendar-out" value="2016-08-30" max="2016-12-31" min="2016-08-24">
           <label for="adults" class="search-form-label">Взрослые:</labe>
-          <input class="count-btn" type="button" value="-">
-          <input id="adults" type="text" placeholder="2">
-          <input class="count-btn" type="button" value="+">
-          <label for="children" class="search-form-label">Дети:</labe>
-          <input class="count-btn" type="button" value="-">
-          <input id="children" type="text" placeholder="0">
-          <input class="count-btn" type="button" value="+">
-          <input type="submit" value="Найти">
+            <input class="count-btn" type="button" value="-">
+            <input id="adults" type="text" placeholder="2">
+            <input class="count-btn" type="button" value="+">
+            <label for="children" class="search-form-label">Дети:</labe>
+              <input class="count-btn" type="button" value="-">
+              <input id="children" type="text" placeholder="0">
+              <input class="count-btn" type="button" value="+">
+              <input type="submit" value="Найти">
         </form>
       </div>
     </div>
