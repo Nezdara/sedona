@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>City of Sedona</title>
+</head>
+<body>
+  <header class="main-header container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/sedona-logo.png" alt="sedona logo" width="138" height="70">
+      </a>
+    </div>
+    <nav class="main-navigation">
+      <ul class="clearfix">
+        <li class="to-left"><a href="#">Информация</a></li>
+        <li class="to-left"><a href="#">Фото и видео</a></li>
+        <li class="to-right"><a href="#">Гостиницы</a></li>
+        <li class="to-right"><a href="#">Карта штата</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="catalog-sort clearfix">
+      <fieldset class="catalog-sort-infrastructure to-left">
+        <legend>Инфраструктура:</legend>
+        <ul>
+          <li>
+            <input type="checkbox" id="pool" name="infrastructure" checked>
+            <label for="pool">Бассейн</label>
+          </li>
+          <li>
+            <input type="checkbox" id="parking" name="infrastructure">
+            <label for="parking">Парковка</label>
+          </li>
+          <li>
+            <input type="checkbox" id="wifi" name="infrastructure">
+            <label for="wifi">Wi-fi</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="catalog-sort-house-type to-left">
+        <legend>Тип жилья:</legend>
+        <ul>
+          <li>
+            <input type="checkbox" id="hotel" name="housing" checked>
+            <label for="hotel">Гостиница</label>
+          </li>
+          <li>
+            <input type="checkbox" id="motel" name="housing" checked>
+            <label for="motel">Мотель</label>
+          </li>
+          <li>
+            <input type="checkbox" id="apartaments" name="housing" checked>
+            <label for="apartaments">Апартаменты</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="catalog-sort-price to-right">
+        <legend>Стоимость в сутки (Р):</legend>
+        <button class="sort-btn" type="submit">Показать</button>
+      </fieldset>
+    </div>
+  </main>
+  <footer class="main-footer container clearfix">
+    <section class="footer-tagname to-left">
+      <h2>#visitsedona</h2>
+    </section>
+    <section class="footer-social to-left">
+      <a class="social-btn social-btn-tw" href="#"><i class="icon-twitter"></i>Твиттер</a>
+      <a class="social-btn social-btn-fb" href="#"><i class="icon-facebook"></i>Фейсбук</a>
+      <a class="social-btn social-btn-ytb" href="#"><i class="icon-youtube"></i>Ютуб</a>
+    </section>
+    <section class="footer-copyright to-right"></section>
+  </footer>
+  </body>
+</html>

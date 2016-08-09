@@ -140,7 +140,7 @@ p {
   color: rgba(0, 0, 0, 0.4);;
 }
 
-.main-header img {
+.main-header .sedona-header {
   margin-bottom: 50px;
 }
 
@@ -427,4 +427,92 @@ input[type=date]::-webkit-clear-button {
 
 .social-btn:last-child {
   margin-right: 0;
+}
+
+.catalog-sort {
+  padding: 30px 70px;
+  background: url("../img/bg-filter.jpg")
+}
+
+.catalog-sort-infrastructure {
+  width: 240px;
+}
+
+.catalog-sort-house-type {
+  width: 240px;
+}
+
+.catalog-sort-price {
+  width: 330px;
+}
+
+.catalog-sort legend {
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.catalog-sort fieldset {
+  border: 0;
+}
+
+.catalog-sort label {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.catalog-sort ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-sort li {
+  margin-bottom: 20px;
+}
+
+.catalog-sort li:last-child {
+  margin-bottom: 0;
+}
+
+.catalog-sort input[type="checkbox"] {
+  display: none;
+}
+
+.catalog-sort label::before{
+  content: "\2610";
+  display: inline-block;
+  vertical-align: top;
+  font-family: "symbols-sedona";
+  font-size: 26px;
+  line-height: 20px;
+  color: #fefefe;
+  width: 40px;
+}
+
+.catalog-sort input[type="checkbox"]:checked + label::before {
+  content: "\2611";
+}
+
+.catalog-sort button {
+  padding: 5px 30px;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  border-radius: 2px 2px;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.catalog-sort button:hover {
+  background: #ffffff;
+  color: #000000;
 }
