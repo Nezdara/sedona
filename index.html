@@ -98,7 +98,11 @@
           <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </div>
       <div class="map">
-        <img src="img/sedona-map.jpg" alt="sedona map" width="1200" height="473">
+        <div id="map-canvas">
+          <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5fibBArR_5YbhEKcEgDgXvI_OmJgLrkM&callback=initMap">
+          </script>
+        </div>
         <div class="search-form">
           <div class="search-form-title">
             <h2>Поиск гостиницы в Седоне</h2>
@@ -161,5 +165,6 @@
     </section>
     <section class="footer-copyright to-right"></section>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>

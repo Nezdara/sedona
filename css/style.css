@@ -207,6 +207,11 @@ p {
   position: relative;
 }
 
+#map-canvas {
+  width: 1200px;
+  height: 473px;
+}
+
 .search-form {
   position: absolute;
   width: 570px;
