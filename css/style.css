@@ -429,24 +429,24 @@ input[type=date]::-webkit-clear-button {
   margin-right: 0;
 }
 
-.catalog-sort {
+.catalog-filter {
   padding: 30px 70px;
   background: url("../img/bg-filter.jpg")
 }
 
-.catalog-sort-infrastructure {
+.catalog-filter-infrastructure {
   width: 240px;
 }
 
-.catalog-sort-house-type {
+.catalog-filter-house-type {
   width: 240px;
 }
 
-.catalog-sort-price {
+.catalog-filter-price {
   width: 330px;
 }
 
-.catalog-sort legend {
+.catalog-filter legend {
   margin-bottom: 25px;
   font-size: 16px;
   line-height: 21px;
@@ -455,11 +455,11 @@ input[type=date]::-webkit-clear-button {
   text-transform: uppercase;
 }
 
-.catalog-sort fieldset {
+.catalog-filter fieldset {
   border: 0;
 }
 
-.catalog-sort label {
+.catalog-filter label {
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
@@ -467,25 +467,25 @@ input[type=date]::-webkit-clear-button {
   cursor: pointer;
 }
 
-.catalog-sort ul {
+.catalog-filter ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.catalog-sort li {
+.catalog-filter li {
   margin-bottom: 20px;
 }
 
-.catalog-sort li:last-child {
+.catalog-filter li:last-child {
   margin-bottom: 0;
 }
 
-.catalog-sort input[type="checkbox"] {
+.catalog-filter input[type="checkbox"] {
   display: none;
 }
 
-.catalog-sort label::before{
+.catalog-filter label::before{
   content: "\2610";
   display: inline-block;
   vertical-align: top;
@@ -496,11 +496,11 @@ input[type=date]::-webkit-clear-button {
   width: 40px;
 }
 
-.catalog-sort input[type="checkbox"]:checked + label::before {
+.catalog-filter input[type="checkbox"]:checked + label::before {
   content: "\2611";
 }
 
-.catalog-sort button {
+.catalog-filter button {
   padding: 5px 30px;
   font-size: 14px;
   line-height: 21px;
@@ -512,7 +512,21 @@ input[type=date]::-webkit-clear-button {
   cursor: pointer;
 }
 
-.catalog-sort button:hover {
+.catalog-filter button:hover {
   background: #ffffff;
   color: #000000;
+}
+
+.catalog-sort {
+  height: 86px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.catalog-item {
+  padding: 30px 70px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.item-photo {
+  width: 165px;
 }
