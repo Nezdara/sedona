@@ -20,7 +20,7 @@
       <ul class="clearfix">
         <li class="to-left"><a href="#">Информация</a></li>
         <li class="to-left"><a href="#">Фото и видео</a></li>
-        <li class="to-right"><a href="#">Гостиницы</a></li>
+        <li class="to-right"><a class="active" href="catalog.html">Гостиницы</a></li>
         <li class="to-right"><a href="#">Карта штата</a></li>
       </ul>
     </nav>
@@ -62,12 +62,28 @@
         </ul>
       </fieldset>
       <fieldset class="catalog-filter-price to-right">
-        <legend>Стоимость в сутки (Р):</legend>
+        <legend>Стоимость в сутки (₽):</legend>
         <button class="sort-btn" type="submit">Показать</button>
       </fieldset>
     </div>
-    <div class="catalog-sort">
-      <h2>Найдено: 2</h2>
+    <div class="catalog-sort clearfix">
+      <div class="catalog-sort-result to-left">
+        <h2>Найдено: 2</h2>
+      </div>
+      <div class="catalog-sort-list to-left">
+        <ul>
+          <li><span>Сортировка:</span></li>
+          <li><a class="active" href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По рейтингу</a></li>
+        </ul>
+      </div>
+      <div class="catalog-sort-arrows to-right">
+        <div class="arrows">
+          <a href="#"><i class="icon-up-dir"></i></a>
+          <a class="active" href="#"><i class="icon-down-dir"></i></a>
+        </div>
+      </div>
     </div>
     <div class="catalog-offers">
       <div class="catalog-item clearfix">
@@ -75,10 +91,26 @@
           <img src="img/item01.jpg" alt="hotel01" width="135px" height="90px">
         </div>
         <div class="item-info to-left">
-          <h2>Amara Resort & Spa</h2>
+          <div class="item-info-title">
+            <a href="#">Amara Resort & Spa</a>
+          </div>
+          <div class="item-info-type">
+            <span>Гостиница</span>
+            <a class="btn-blue" href="#">Подробнее</a>
+          </div>
+          <div class="item-info-price">
+            <span>от 3500 ₽.</span>
+            <a class="btn-blue" href="#">Забронировать</a>
+          </div>
         </div>
         <div class="item-rating to-right">
-
+          <div class="stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <span>Рейтинг: 8,5</span>
         </div>
       </div>
       <div class="catalog-item clearfix">
@@ -86,18 +118,129 @@
           <img src="img/item02.jpg" alt="hotel02" width="135px" height="90px">
         </div>
         <div class="item-info to-left">
-          <h2>Desert Quail & Inn</h2>
+          <div class="item-info-title">
+            <a href="#">Desert Quail Inn</a>
+          </div>
+          <div class="item-info-type">
+            <span>Мотель</span>
+            <a class="btn-blue" href="#">Подробнее</a>
+          </div>
+          <div class="item-info-price">
+            <span>от 2000 ₽.</span>
+            <a class="btn-blue" href="#">Забронировать</a>
+          </div>
         </div>
-
+        <div class="item-rating to-right">
+          <div class="stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <span>Рейтинг: 8,9</span>
+        </div>
       </div>
       <div class="catalog-item clearfix">
         <div class="item-photo to-left">
           <img src="img/item03.jpg" alt="hotel03" width="135px" height="90px">
         </div>
         <div class="item-info to-left">
-          <h2>Villas At Pocco Diablo</h2>
+          <div class="item-info-title">
+            <a href="#">Villas At Pocco Diablo</a>
+          </div>
+          <div class="item-info-type">
+            <span>Апартаменты</span>
+            <a class="btn-blue" href="#">Подробнее</a>
+          </div>
+          <div class="item-info-price">
+            <span>от 4000 ₽.</span>
+            <a class="btn-blue" href="#">Забронировать</a>
+          </div>
         </div>
-
+        <div class="item-rating to-right">
+          <div class="stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <span>Рейтинг: 9,2</span>
+        </div>
+      </div>
+      <div class="catalog-item clearfix">
+        <div class="item-photo to-left">
+          <img src="img/item01.jpg" alt="hotel01" width="135px" height="90px">
+        </div>
+        <div class="item-info to-left">
+          <div class="item-info-title">
+            <a href="#">Amara Resort & Spa</a>
+          </div>
+          <div class="item-info-type">
+            <span>Гостиница</span>
+            <a class="btn-blue" href="#">Подробнее</a>
+          </div>
+          <div class="item-info-price">
+            <span>от 3500 ₽.</span>
+            <a class="btn-blue" href="#">Забронировать</a>
+          </div>
+        </div>
+        <div class="item-rating to-right">
+          <div class="stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <span>Рейтинг: 8,5</span>
+        </div>
+      </div>
+      <div class="catalog-item clearfix">
+        <div class="item-photo to-left">
+          <img src="img/item02.jpg" alt="hotel02" width="135px" height="90px">
+        </div>
+        <div class="item-info to-left">
+          <div class="item-info-title">
+            <a href="#">Desert Quail Inn</a>
+          </div>
+          <div class="item-info-type">
+            <span>Мотель</span>
+            <a class="btn-blue" href="#">Подробнее</a>
+          </div>
+          <div class="item-info-price">
+            <span>от 2000 ₽.</span>
+            <a class="btn-blue" href="#">Забронировать</a>
+          </div>
+        </div>
+        <div class="item-rating to-right">
+          <div class="stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <span>Рейтинг: 8,9</span>
+        </div>
+      </div>
+      <div class="catalog-item clearfix">
+        <div class="item-photo to-left">
+          <img src="img/item03.jpg" alt="hotel03" width="135px" height="90px">
+        </div>
+        <div class="item-info to-left">
+          <div class="item-info-title">
+            <a href="#">Villas At Pocco Diablo</a>
+          </div>
+          <div class="item-info-type">
+            <span>Апартаменты</span>
+            <a class="btn-blue" href="#">Подробнее</a>
+          </div>
+          <div class="item-info-price">
+            <span>от 4000 ₽.</span>
+            <a class="btn-blue" href="#">Забронировать</a>
+          </div>
+        </div>
+        <div class="item-rating to-right">
+          <div class="stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <span>Рейтинг: 9,2</span>
+        </div>
       </div>
     </div>
   </main>
